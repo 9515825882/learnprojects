@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="prem.entities.Student" table="Student">
+<id name="id" type="int" column="roll_no">
+</id>
+<property name="name" type="string" column="stu_name" />
+<property name="classname" type="string" column="class_name" />
+<property name="subjectname" type="string" column="subject_name" />
+</class>
+</hibernate-mapping>
